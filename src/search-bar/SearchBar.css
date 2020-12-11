@@ -1,0 +1,28 @@
+body {
+    font-family: Garamond, Georgia, serif;
+    font-size: 16px;
+    background-color: #f5f7f6;
+    letter-spacing: 0.05rem;
+    line-height: 1.3;
+}
+
+/* style the search bar input field*/
+
+.searchBar input {
+    margin-top: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 170, 50);
+    width: 50%;
+}
+
+@media screen and (min-width: 812px) {
+    .searchBar {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /* style the search bar input field*/
+    .searchBar input {
+        width: 50%;
+    }
+}
